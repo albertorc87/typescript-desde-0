@@ -94,3 +94,15 @@ const moto: Motorcycle = {
     year: 2023
 }
 console.log(moto);
+
+function sumNumbers(num1: number, num2: number): number {
+    return num1 + num2
+}
+
+console.log(sumNumbers(5, 7));
+
+function printMessage(message: string): void {
+    console.log(message);
+}
+
+printMessage('Mensaje desde mi función')

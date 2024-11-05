@@ -56,3 +56,11 @@ var moto = {
     year: 2023
 };
 console.log(moto);
+function sumNumbers(num1, num2) {
+    return num1 + num2;
+}
+console.log(sumNumbers(5, 7));
+function printMessage(message) {
+    console.log(message);
+}
+printMessage('Mensaje desde mi función');
